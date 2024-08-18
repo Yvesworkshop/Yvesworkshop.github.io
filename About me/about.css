@@ -26,7 +26,7 @@ body {
 
 .navigation-container {
   overflow: auto;
-  max-height: 233px;
+  max-height: 100%;
 }
 
 .navigation-container h2 {
@@ -53,7 +53,7 @@ body {
 .col.col-4 {}
 
 .col.col-5{
-  width: 80%;
+  width: 68%;
 }
 
 .col.col-6 {
@@ -67,11 +67,13 @@ body {
 .col.col-9{}
 
 .col.col-10 {
-  width: 50%;
+  width: 70%;
+  padding: 2%;
 }
 
 .col.col-11 {
-  width: 50%;
+  width: 30%;
+  padding: 2%;
 }
 
 .text-container {
@@ -84,15 +86,18 @@ body {
 
 .button-container {
   overflow: hidden;
+  height: 34%;
 }
 
-.buttons.buttons-content {
+.button-content {
   display: flex;
   animation-duration: 25s;
   animation-name: scroll-reverse;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
+
+
 
 .text-container.audio-container {
   border-radius: 10px;
@@ -113,14 +118,22 @@ body {
   margin: 0;
 }
 
-
 audio {
   width: 100%;
-  height: 100%;
+  height: 25px;
+}
+
+.site-status-container {
+  overflow-y: auto;
+  height: 133px;
+}
+
+.site-status-container h2 {
+  font-size: 1.3em;
 }
 
 .text-container.todo-container {
-  height: 200px;
+  height: 530px;
   overflow-y: auto;
 }
 
@@ -134,11 +147,20 @@ audio {
   width: 100%;
 }
 
+.profile-banner {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .profile {
 }
 
 .text-container.profile{
   height: auto;
+}
+
+.tabcontent {
+  display: none;
 }
 
 footer.text-container {
@@ -168,4 +190,9 @@ a {
 
 a:hover {
   color: rgb(230, 37, 156);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(246, 186, 206) gainsboro;
 }
