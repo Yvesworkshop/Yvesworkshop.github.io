@@ -1,0 +1,52 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: Verdana;
+}
+
+#contentwrapper {
+  /* WIDTH OF THE WRAPPER */
+  width: 900px;
+  
+  /* CENTER THE WRAPPER */
+  margin-right: auto;
+  margin-left: auto;
+  
+  /* ADD PADDING AND SPACING */
+  margin-top: 10%;
+}
+
+.centeredelement {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container {
+  display: block;
+  margin-left: 90px;
+  margin-right: auto;
+  position: relative;
+  margin-top: 25px;
+}
+
+.button {
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.hover_image:hover {
+  text-decoration: none;
+}
+
+.hide {
+  display: none;
+}
+
+.hover_image:hover img:first-child{display: none;}
+.hover_image:hover img:last-child{display: inline-block;}

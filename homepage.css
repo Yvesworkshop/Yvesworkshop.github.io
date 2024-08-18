@@ -1,0 +1,25 @@
+* {
+  image-rendering: pixelated;
+}
+
+body {
+  background-image: url(./tempimages/Homepage-backgrounf.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.room {
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+.rotate {
+  width: fit-content;
+  height: fit-content;
+  display: inline-block;
+  position: absolute;
+}
+
