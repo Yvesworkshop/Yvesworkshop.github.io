@@ -1,0 +1,47 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px auto;
+  padding: 25px;
+}
+
+.main-container {
+  background-color: beige;
+  padding-bottom: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  max-width: none;
+}
+
+.text-container {
+  margin: 0 10px 10px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: insert 0 0 10px rgb(255, 215, 223);
+}
+
+.button-container {
+  overflow: hidden;
+}
+
+footer.text-container {
+  margin: 0 10px;
+}
+
+footer.text-container span {
+  font-size: 12px;
+  margin: 0 5px;
+  color: rgb(179, 76, 133);
+}
+
+footer.text-container a {
+  display: inline;
+  color: rgb(179, 76, 133);
+}
