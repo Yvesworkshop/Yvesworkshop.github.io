@@ -25,9 +25,9 @@
             <h2>Navigation</h2>
             <a href="../homepage.html">Home</a>
             <a href="./about-home.html">About</a>
-            <a href="../Traditional Gallery/">Traditional Portfolio</a>
-            <a href="../Digital Gallery/">Digital Art</a>
-            <a href="../stuffed-animals/">Stuffed Animal Corner</a>
+            <a href="../Traditional Gallery/portfolio.html">Traditional Portfolio</a>
+            <a href="../Digital Gallery/diggallery.html">Digital Art</a>
+            <a href="../stuffed-animals/plushies.html">Stuffed Animal Corner</a>
             <a href="../goalboard.html">Bullentin Board</a>
             <a>Photobook</a>
             <a>Journal/chatroom</a>
@@ -83,18 +83,85 @@
       <!--MID ROW-->
       <div class="row">
         <!--Right Col-->
-        <section class="col col4"></section>
-        <!--Mid Copl-->
-        <section class="col col5"></section>
+        <section class="col col4">
+          <!--Poll-->
+          <div class="text-container">
+            <form method="post" action="https://poll.pollcode.com">
+              <!--Title-->
+              <div style="width: 175px;">
+                <h2 style="padding-right: 15px;">
+                  If you were a Pokemon gym leader what type would your gym be?
+                </h2>
+              </div>
+              <!--Poll input-->
+              <input id="answer1" type="radio" name="answer" value="1" style="float: left;">
+              <label for="answer1">Fire</label>
+              <div style="clear: both;height: 2px;"></div>
+              <input id="answer2" type="radio" name="answer" value="2" style="float: left;">
+              <label for="answer2">Water</label>
+              <div style="clear: both;height: 2px;"></div>
+              <input id="answer3" type="radio" name="answer" value="3" style="float: left;">
+              <label for="answer1">Grass</label>
+              <div style="clear: both;height: 2px;"></div>
+            </form>
+          </div>
+        </section>
+        <!--Mid Col-->
+        <section class="col col5">
+          <!--Interchangeable Persona Profile-->
+          <div class="profile text-container">
+            <div class="row">
+              <div class="profile-banner">Switch it up</div>
+              <div class="col col2.1">
+                <img src="" alt="Persona img">
+              </div>
+              <div class="col col2.2">
+                <p>Persona Blurb</p>
+              </div>
+            </div>
+          </div>
+        </section>
         <!--Left Col-->
-        <section class="col col6"></section>
+        <section class="col col6">
+          <div class="text-container mood-container">
+            <!--Mood-->
+            <h2 class="center-text";">mood & time</h2>
+            <a class="center-text" href="https://www.imood.com">
+              <img src="" alt="" border="0">
+            </a>
+            <!--Temp/Time-->
+            <p class="center-text">
+              <span id="webmastertemp">100°F</span>
+              <span id="webmastertemp">10:42pm</span>
+            </p>
+          </div>
+        </section>
       </div>
-      <!--Bottom Row-->
+      <!--BOTTOM ROW-->
       <div class="row">
         <!--Right Col-->
-        <section class="col col7"></section>
+        <section class="col col7">
+          <div class="text-container todo-container">
+            <h2>Todo list</h2>
+            <p>- "finish about page"</p>
+            <p>- start links page</p>
+            <p>- finish digital art page</p>
+            <p>- start photobooth</p>
+            <p>- start chatroom</p>
+            <p>- start mouse</p>
+            <p class="finished">- start about page</p>
+          </div>
+        </section>
         <!--Mid Copl-->
-        <section class="col col8"></section>
+        <section class="col col8">
+          <!--Ads-->
+          <div class="text-container">
+            ads go here
+            <a href="">
+              <img class="ad" src="" alt="">
+            </a>
+          </div>
+        </section>
         <!--Left Col-->
         <section class="col col9"></section>
       </div>
@@ -110,7 +177,7 @@
         <br>
         <p>
           Last Updated:
-        <span id="lastupdate">August 17, 2024</span>
+        <span id="lastupdate">August 18, 2024</span>
         </p>
       </footer>
     </div>
