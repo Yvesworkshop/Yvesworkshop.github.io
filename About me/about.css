@@ -1,15 +1,22 @@
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/symbols/sym-7/sym635.ani), url(https://cur.cursors-4u.net/symbols/sym-7/sym635.png), auto !important;} /* End https://www.cursors-4u.com */
 
 body {
-  font-family: 'Courier New', Courier, monospace;
-  background-image: url();
-  background-color: rgb(161, 79, 108);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 1200px;
+  font-family: 'ms ui gothic';
+  background-image: url(images/grasstile.jpeg);
+  background-repeat: repeat;
+  width: 1214px;
   margin: 0px auto;
   padding: 25px;
 }
+
+
+.frame4 {
+  border: 30px solid;
+  border-image: url( ./borders/frame4.png) 30 round;
+  padding: 20px;
+  margin: 5px;
+  }
+      
 
 .main-container {
   background-color: rgb(199, 221, 138);
@@ -22,6 +29,12 @@ body {
 
 .row:first-of-type .text-container {
   margin-top: 10px;
+}
+
+.top-banner {
+  background-image: linear-gradient(90deg,white,rgb(255, 203, 203),rgb(255, 242, 205),rgb(207, 235, 129));
+  padding: 2px;
+  box-shadow: 0 0 8px 8px rgb(199, 221, 138) inset;
 }
 
 .navigation-container {
@@ -84,21 +97,6 @@ body {
   border-radius: 10px;
 }
 
-.button-container {
-  overflow: hidden;
-  height: 34%;
-}
-
-.button-content {
-  display: flex;
-  animation-duration: 25s;
-  animation-name: scroll-reverse;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
-
-
 .text-container.audio-container {
   border-radius: 10px;
 }
@@ -118,6 +116,16 @@ body {
   margin: 0;
 }
 
+.text-container.pokemon-container {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.text-container.pokemon-container img{
+  margin: 4px;
+}
+
+
 audio {
   width: 100%;
   height: 25px;
@@ -125,7 +133,7 @@ audio {
 
 .site-status-container {
   overflow-y: auto;
-  height: 133px;
+  height: 150px;
 }
 
 .site-status-container h2 {
@@ -133,13 +141,14 @@ audio {
 }
 
 .text-container.todo-container {
-  height: 530px;
+  height: fit-content;
+  max-height: 530px;
   overflow-y: auto;
 }
 
 .main-text {
   /*height: auto;*/
-  height: 75%;
+  height: fit-content;
 }
 
 .main-text img {
@@ -152,19 +161,15 @@ audio {
   margin-right: auto;
 }
 
-.profile {
-}
 
 .text-container.profile{
   height: auto;
 }
 
-.tabcontent {
-  display: none;
-}
 
 footer.text-container {
   margin: 0 10px;
+  height: fit-content;
 }
 
 footer.text-container span {
@@ -191,6 +196,14 @@ a {
 a:hover {
   color: rgb(230, 37, 156);
 }
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0); }
+    100% {
+      transform: translate(0);
+    }
+  }
 
 * {
   scrollbar-width: thin;
